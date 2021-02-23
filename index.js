@@ -36,3 +36,11 @@ app.post('/api/products', [validateProduct], (req, res) => {
 	const addedProduct = repoContext.products.createProduct(newProduct);
 	return res.send(addedProduct);
 });
+
+/*======================================================================*/
+
+// PUT endpoint
+app.put('/api/products/:id', [validateProduct], (req, res) => {
+	const updatedProduct = repoContext.products.updateProduct(id, productPropertiesToUpdate);
+		return res.send(updatedProduct)
+});
