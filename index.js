@@ -41,7 +41,9 @@ app.post('/api/music', [validateSong], (req, res) => {
 
 // PUT endpoint
 app.put('/api/music/:id', [validateSong], (req, res) => {
-	const updatedSong = repoContext.songs.updateSong(id, productPropertiesToUpdate);
+	const id = req.params.id;
+	const songPropertiesToUpdate = req.body;
+	const updatedSong = repoContext.songs.updateSong(id, songPropertiesToUpdate);
 		return res.send(updatedSong)
 });
 
