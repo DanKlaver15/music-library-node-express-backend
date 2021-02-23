@@ -44,3 +44,11 @@ app.put('/api/products/:id', [validateProduct], (req, res) => {
 	const updatedProduct = repoContext.products.updateProduct(id, productPropertiesToUpdate);
 		return res.send(updatedProduct)
 });
+
+/*======================================================================*/
+
+// DELTE endpoint
+app.delete('/api/products/:id', (req, res) => {
+	const id = req.params.id;
+	const updatedDataSet = repoContext.products.deleteProduct(id); return res.send(updatedDataSet);
+});
