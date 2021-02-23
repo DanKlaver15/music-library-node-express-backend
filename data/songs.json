@@ -1,1 +1,186 @@
-[]
+[
+	{
+		"id": 1,
+		"title": "The Best of What's Around",
+		"album": "Under the Table and Dreaming",
+		"artist": "Dave Matthews Band",
+		"genre": "Alternative Rock",
+		"releaseDate": "09/27/1994"
+	},
+	{
+		"id": 2,
+		"title": "What Would You Say",
+		"album": "Under the Table and Dreaming",
+		"artist": "Dave Matthews Band",
+		"genre": "Alternative Rock",
+		"releaseDate": "09/27/1994"
+	},
+	{
+		"id": 3,
+		"title": "Satellite",
+		"album": "Under the Table and Dreaming",
+		"artist": "Dave Matthews Band",
+		"genre": "Alternative Rock",
+		"releaseDate": "09/27/1994"
+	},
+	{
+		"id": 4,
+		"title": "Rhyme & Reason",
+		"album": "Under the Table and Dreaming",
+		"artist": "Dave Matthews Band",
+		"genre": "Alternative Rock",
+		"releaseDate": "09/27/1994"
+	},
+	{
+		"id": 5,
+		"title": "Typical Situation",
+		"album": "Under the Table and Dreaming",
+		"artist": "Dave Matthews Band",
+		"genre": "Alternative Rock",
+		"releaseDate": "09/27/1994"
+	},
+	{
+		"id": 6,
+		"title": "Dancing Nancies",
+		"album": "Under the Table and Dreaming",
+		"artist": "Dave Matthews Band",
+		"genre": "Alternative Rock",
+		"releaseDate": "09/27/1994"
+	},
+	{
+		"id": 7,
+		"title": "Ants Marching",
+		"album": "Under the Table and Dreaming",
+		"artist": "Dave Matthews Band",
+		"genre": "Alternative Rock",
+		"releaseDate": "09/27/1994"
+	},
+	{
+		"id": 8,
+		"title": "Lover Lay Down",
+		"album": "Under the Table and Dreaming",
+		"artist": "Dave Matthews Band",
+		"genre": "Alternative Rock",
+		"releaseDate": "09/27/1994"
+	},
+	{
+		"id": 9,
+		"title": "Jimi Thing",
+		"album": "Under the Table and Dreaming",
+		"artist": "Dave Matthews Band",
+		"genre": "Alternative Rock",
+		"releaseDate": "09/27/1994"
+	},
+	{
+		"id": 10,
+		"title": "Warehouse",
+		"album": "Under the Table and Dreaming",
+		"artist": "Dave Matthews Band",
+		"genre": "Alternative Rock",
+		"releaseDate": "09/27/1994"
+	},
+	{
+		"id": 11,
+		"title": "Pay for What You Get",
+		"album": "Under the Table and Dreaming",
+		"artist": "Dave Matthews Band",
+		"genre": "Alternative Rock",
+		"releaseDate": "09/27/1994"
+	},
+	{
+		"id": 12,
+		"title": "#34",
+		"album": "Under the Table and Dreaming",
+		"artist": "Dave Matthews Band",
+		"genre": "Alternative Rock",
+		"releaseDate": "09/27/1994"
+	},
+	{
+		"id": 13,
+		"title": "Ramble Tamble",
+		"album": "Cosmo's Factory",
+		"artist": "Creedence Clearwater Revival",
+		"genre": "Classic Rock",
+		"releaseDate": "07/16/1970"
+	},
+	{
+		"id": 14,
+		"title": "Before You Accuse Me",
+		"album": "Cosmo's Factory",
+		"artist": "Creedence Clearwater Revival",
+		"genre": "Classic Rock",
+		"releaseDate": "07/16/1970"
+	},
+	{
+		"id": 15,
+		"title": "Travelin' Band",
+		"album": "Cosmo's Factory",
+		"artist": "Creedence Clearwater Revival",
+		"genre": "Classic Rock",
+		"releaseDate": "07/16/1970"
+	},
+	{
+		"id": 16,
+		"title": "Ooby Dooby",
+		"album": "Cosmo's Factory",
+		"artist": "Creedence Clearwater Revival",
+		"genre": "Classic Rock",
+		"releaseDate": "07/16/1970"
+	},
+	{
+		"id": 17,
+		"title": "Lookin' Out My Back Door",
+		"album": "Cosmo's Factory",
+		"artist": "Creedence Clearwater Revival",
+		"genre": "Classic Rock",
+		"releaseDate": "07/16/1970"
+	},
+	{
+		"id": 18,
+		"title": "Run Through The Jungle",
+		"album": "Cosmo's Factory",
+		"artist": "Creedence Clearwater Revival",
+		"genre": "Classic Rock",
+		"releaseDate": "07/16/1970"
+	},
+	{
+		"id": 19,
+		"title": "Up Around the Bend",
+		"album": "Cosmo's Factory",
+		"artist": "Creedence Clearwater Revival",
+		"genre": "Classic Rock",
+		"releaseDate": "07/16/1970"
+	},
+	{
+		"id": 20,
+		"title": "My Baby Left Me",
+		"album": "Cosmo's Factory",
+		"artist": "Creedence Clearwater Revival",
+		"genre": "Classic Rock",
+		"releaseDate": "07/16/1970"
+	},
+	{
+		"id": 21,
+		"title": "Who'll Stop the Rain",
+		"album": "Cosmo's Factory",
+		"artist": "Creedence Clearwater Revival",
+		"genre": "Classic Rock",
+		"releaseDate": "07/16/1970"
+	},
+	{
+		"id": 22,
+		"title": "I Heard It Through the Grapevine",
+		"album": "Cosmo's Factory",
+		"artist": "Creedence Clearwater Revival",
+		"genre": "Classic Rock",
+		"releaseDate": "07/16/1970"
+	},
+	{
+		"id": 23,
+		"title": "Long As I Can See the Light",
+		"album": "Cosmo's Factory",
+		"artist": "Creedence Clearwater Revival",
+		"genre": "Classic Rock",
+		"releaseDate": "07/16/1970"
+	}
+]
