@@ -1,7 +1,7 @@
 const express = require('express');
 const repoContext = require('./repository/repository-wrapper');
 const cors = require('cors');
-const { validateProduct } = require('./middleware/products-validation');
+const { validateSong } = require('./middleware/music-validation');
 const app = express();
 
 app.use(cors());
@@ -31,7 +31,7 @@ app.get('/api/music/:id', (req, res) => {
 /*======================================================================*/
 
 // POST endpoint
-app.post('/api/music', [validateProduct], (req, res) => {
+app.post('/api/music', [validateSong], (req, res) => {
 	const newSong = req.body;
 	const addedSong = repoContext.songs.createSong(newSong);
 	return res.send(addedSong);
@@ -40,7 +40,7 @@ app.post('/api/music', [validateProduct], (req, res) => {
 /*======================================================================*/
 
 // PUT endpoint
-app.put('/api/music/:id', [validateProduct], (req, res) => {
+app.put('/api/music/:id', [validateSong], (req, res) => {
 	const updatedSong = repoContext.songs.updateSong(id, productPropertiesToUpdate);
 		return res.send(updatedSong)
 });
