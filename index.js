@@ -24,31 +24,32 @@ app.get('/api/music', (req, res) => {
 // Get a specific product by ID
 app.get('/api/music/:id', (req, res) => {
 	const id = req.params.id;
-	const songs = repoContext.songs.findSongById(id);
-	return res.send(songs);
+	const song = repoContext.songs.findSongById(id);
+	return res.send(song);
 });
 
 /*======================================================================*/
 
 // POST endpoint
-app.post('/api/products', [validateProduct], (req, res) => {
-	const newProduct = req.body;
-	const addedProduct = repoContext.products.createProduct(newProduct);
-	return res.send(addedProduct);
+app.post('/api/music', [validateProduct], (req, res) => {
+	const newSong = req.body;
+	const addedSong = repoContext.songs.createSong(newSong);
+	return res.send(addedSong);
 });
 
 /*======================================================================*/
 
 // PUT endpoint
-app.put('/api/products/:id', [validateProduct], (req, res) => {
-	const updatedProduct = repoContext.products.updateProduct(id, productPropertiesToUpdate);
-		return res.send(updatedProduct)
+app.put('/api/music/:id', [validateProduct], (req, res) => {
+	const updatedSong = repoContext.songs.updateSong(id, productPropertiesToUpdate);
+		return res.send(updatedSong)
 });
 
 /*======================================================================*/
 
 // DELTE endpoint
-app.delete('/api/products/:id', (req, res) => {
+app.delete('/api/music/:id', (req, res) => {
 	const id = req.params.id;
-	const updatedDataSet = repoContext.products.deleteProduct(id); return res.send(updatedDataSet);
+	const updatedDataSet = repoContext.songs.deleteSong(id); 
+	return res.send(updatedDataSet);
 });
