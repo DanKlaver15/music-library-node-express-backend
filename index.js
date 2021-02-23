@@ -28,3 +28,11 @@ app.get('/api/music/:id', (req, res) => {
 	return res.send(songs);
 });
 
+/*======================================================================*/
+
+// POST endpoint
+app.post('/api/products', [validateProduct], (req, res) => {
+	const newProduct = req.body;
+	const addedProduct = repoContext.products.createProduct(newProduct);
+	return res.send(addedProduct);
+});
