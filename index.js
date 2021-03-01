@@ -49,9 +49,18 @@ app.put('/api/music/:id', [validateSong], (req, res) => {
 
 /*======================================================================*/
 
-// DELTE endpoint
+// DELTE endpoint (for 1 record)
 app.delete('/api/music/:id', (req, res) => {
 	const id = req.params.id;
 	const updatedDataSet = repoContext.songs.deleteSong(id); 
+	return res.send(updatedDataSet);
+});
+
+/*======================================================================*/
+
+// DELTE endpoint (for multiple records)
+app.delete('/api/music/resources?:songs', (req, res) => {
+	const songs = req.params.queryString;
+	const updatedDataSet = repoContext.songs.deleteSongs(songs); 
 	return res.send(updatedDataSet);
 });
